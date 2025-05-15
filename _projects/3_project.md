@@ -1,81 +1,12 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: The interplay between self-perception and personality during adolescence
+img: assets/img/3.jpg
 importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+Adolescents’ self-perceptions play a crucial role in shaping their personality development, yet research often treats self-esteem as a unitary construct, overlooking the distinct roles of domain-specific competencies. This study investigates how both global self-worth and domain-specific self-perceptions, measured by the Self-Perception Profile for Adolescents (SPPA), relate to Big Five personality traits, measured via the BFI-10, across multiple developmental time points. Drawing on data from the Transitions in Adolescent Girls (TAG) longitudinal study (N = 174), we analyze daily-diary self-reports collected across up to six waves spanning early to mid-adolescence.
+We first establish the empirical factor structure of the SPPA using exploratory factor analysis (EFA) and test its longitudinal measurement invariance via confirmatory factor analysis (CFA). Model fit is evaluated using multiple indices (CFI, TLI, RMSEA, SRMR), and factor retention is guided by theoretical alignment and statistical rigor. Where full invariance is not achieved, partial invariance is tested to retain robust constructs for longitudinal analyses.
+To examine developmental trajectories, we employ multilevel modeling (MLM) with lagged predictors, modeling self-perception and personality as both outcomes and predictors over time. Age and time since last assessment are tested as moderators. Additionally, a random intercept cross-lagged panel model (RI-CLPM) is used to disentangle within-person (state-like) and between-person (trait-like) dynamics, allowing for directional inferences between personality traits and self-perception factors. We explore whether changes in self-perceptions precede shifts in personality, or vice versa, and test for age-specific periods of influence by modeling developmental transitions in 18-month intervals.
+Findings from this study will clarify how adolescents’ views of themselves in specific domains contribute to the evolving structure of personality, advancing theoretical models of self-concept and trait development during adolescence.

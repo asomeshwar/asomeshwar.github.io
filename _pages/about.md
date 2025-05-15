@@ -2,16 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>University of Oregon Department of Psychology</p>
+    <p>Straub Hall</p>
+    <p>1451 Onyx St</p>
+    <p>Eugene OR 97403</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +28,28 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My research centers on adolescent development, particularly the dynamics of dyadic relationships and the impact of perception discrepancies on psychological outcomes. I explore how adolescents perceive themselves versus how they are perceived by significant others, primarily parents and peers, and how these discrepancies influence key developmental outcomes like mental health, self-esteem, and relationship quality.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+### **Dissertation Title:** "Navigating Adolescence: The Dynamics of Dyads, Perception, and Personality in Youth Development"
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+*Key Themes & Constructs*
+
+-   Perception Discrepancies: Mismatches between adolescents’ self-views and the views held by parents and peers.
+
+-   Dyadic Relationships: Bidirectional and dynamic interactions within parent-adolescent and peer-adolescent dyads.
+
+-   Longitudinal and Daily Experience Methods: Use of both long-term data and daily diary methods to track development and interaction patterns over time.
+
+-   Self-Esteem and Mental Health: Outcomes linked to the degree of alignment (or misalignment) in perception.
+
+-   Relationship Quality: How congruent perceptions within dyads affect closeness, conflict, and overall satisfaction.
+
+### **Methodology**
+
+I use:
+
+-   **Mixed-effects modeling** (e.g., `lmer`) for nested data.
+
+-   Network analysis to study structure changes across time.
+
+-   **Multi-method data** combining surveys, behavioral ratings, ecological momentary assessment (EMA), and observer coding.

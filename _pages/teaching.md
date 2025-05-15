@@ -2,11 +2,17 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Courses I've solo taught, guest lectured for, or been a teaching assistant for.
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+Graduate Teaching Initiative Participant, University of Oregon, Eugene OR, June 2023 – Sept 2023
+Instructor of Record, University of Oregon, Eugene OR, June 2023 – Sept 2023
+Statistics Lab Instructor, University of Oregon, Eugene OR, March 2023 – present
+Graduate Teaching Fellow, University of Oregon, Eugene OR, Sept 2021 – present
+Guest Lecturer, University of Oregon, Eugene OR, Sept 2021 – present
+Solo Instructor of Record, University of Oregon, Eugene OR, June – Aug 2024
+Panelist, University of Oregon, Eugene OR, Sept 2024
+Statistics Consultant, Society for Personality and Social Psychology, remote, March 2024 – present
 
-Organize your courses by years, topics, or universities, however you like!
