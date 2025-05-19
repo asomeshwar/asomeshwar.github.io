@@ -152,6 +152,12 @@ collections:
     output: true
   projects:
     output: true
+  pages:
+    output: true
+    permalink: /:path/
+
+include: ["_pages", "_scripts"]
+
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
